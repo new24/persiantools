@@ -1,0 +1,1440 @@
+
+.forumModerators {
+    font-size: inherit;
+}
+.forumModeratorsForumList {
+    color: #969696 !important;
+    font-size: 11px;
+    padding: 0 55px 10px 0;
+}
+.forumModeratorsNone {
+    background: #fff none repeat scroll 0 0;
+    padding: 5px 10px 5px 5px;
+}
+.commaImplode li::after, .commaElements > *::after {
+    content: ", ";
+}
+.commaImplode li:last-child::after, .commaElements > *:last-child::after {
+    content: "";
+}
+.ctaFtTitleForumList {
+    font-weight: bold;
+    margin: 10px auto -5px;
+}
+.ctaFtTitleForumView {
+    font-weight: bold;
+    margin: 10px auto -5px;
+}
+.ctaFtTitleNewPosts {
+    font-weight: bold;
+    margin: 10px auto -5px;
+}
+.ctaFtFeaturedThreadList {
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 10px;
+    margin-right: 5px;
+    padding: 1px 2px;
+}
+.ctaFtFeaturedThreadList:hover, .ctaFtFeaturedThreadList a:hover {
+    background-color: rgb(219, 219, 219);
+    border-color: rgb(141, 141, 141);
+    text-decoration: none;
+}
+.ctaFtFeaturedThreadView {
+    background: rgb(219, 219, 219) url("https://forum.persiantools.com/styles/default/xenforo/gradients/form-button-white-25px.png") repeat-x scroll center top;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 4px;
+    clear: left;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    margin: 4px 5px 0 0;
+    padding: 0 6px;
+}
+.ctaFtFeaturedThreadView:hover, .ctaFtFeaturedThreadView a:hover {
+    background-color: rgb(141, 141, 141);
+    border-color: rgb(111, 143, 166);
+    text-decoration: none;
+}
+.ctaFtExpiredThreadList {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 3px;
+    color: rgb(100, 100, 100);
+    float: left;
+    font-size: 10px;
+    margin-right: 5px;
+    padding: 1px 2px;
+}
+.ctaFtExpiredThreadView {
+    background: rgb(255, 255, 255) url("https://forum.persiantools.com/styles/default/xenforo/gradients/form-button-white-25px.png") repeat-x scroll center top;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 4px;
+    clear: left;
+    color: rgb(100, 100, 100);
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    margin: 4px 5px 0 0;
+    padding: 0 6px;
+}
+.ctaFtBlock {
+    margin-top: 10px;
+}
+.sectionMain.ctaFtContainer {
+    border-color: rgb(219, 219, 219);
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.ctaFtBackground {
+    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/images/cta-featured-threads-gradient.png") repeat-x scroll center top;
+}
+.ctaFtBackgroundImage {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.ctaFtAvatar {
+    float: right;
+    height: 102px;
+    margin-left: 10px;
+    width: 102px;
+}
+.ctaFtAvatarRight {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.ctaFtIcon {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    float: right;
+    height: 96px;
+    margin-left: 10px;
+    padding: 2px;
+    width: 96px;
+}
+.ctaFtIcon img {
+    height: 96px;
+    width: 96px;
+}
+.ctaFtIconRight {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.ctaFtThreadContentAvatar {
+    height: 102px;
+}
+.ctaFtThreadContentIcon {
+    height: 102px;
+}
+.ctaFtThreadTitle {
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+a.ctaFtThreadTitleLink {
+}
+.ctaFtThreadTextAvatar {
+    font-size: 14px;
+    height: 78px;
+    line-height: 1.44em;
+    overflow: hidden;
+}
+.ctaFtThreadTextIcon {
+    font-size: 14px;
+    height: 78px;
+    line-height: 1.44em;
+    overflow: hidden;
+}
+.ctaFtThreadTextAvatar a, .ctaFtThreadTextIcon a {
+}
+.ctaFtFooter {
+    margin-bottom: -3px;
+    overflow: hidden;
+    padding-top: 1px;
+}
+.ctaFtFooter {
+}
+.ctaFtFooter::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ctaFtFeaturedThreadText {
+    color: rgb(150, 150, 150);
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.ctaFtAuthor .username {
+    color: rgb(150, 150, 150);
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.ctaFtDate {
+    color: rgb(150, 150, 150);
+    float: right;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ctaFtForum a {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.ctaFtExpiry {
+    color: rgb(150, 150, 150);
+    float: right;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ctaFtLikes {
+    color: rgb(150, 150, 150);
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.ctaFtViews {
+    color: rgb(150, 150, 150);
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.ctaFtReplies {
+    color: rgb(150, 150, 150);
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+a.ctaFtReadMoreLink {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.ctaFtShare {
+    margin-bottom: -8px;
+    margin-top: 10px;
+}
+.ctaFtShare {
+}
+.ctaFtShare::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ctaFtShareControls {
+    float: right;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.ctaFtTwitter {
+}
+.ctaFtGoogle {
+}
+.ctaFtFacebook {
+}
+.ctaFtAddThis {
+}
+.ctaFtCustomShare {
+}
+.ctaFtListItemsPage {
+}
+.ctaFtBlockPage {
+    margin-top: 10px;
+}
+.sectionMain.ctaFtContainerPage {
+    border-color: rgb(219, 219, 219);
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.ctaFtBackgroundPage {
+    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/images/cta-featured-threads-gradient.png") repeat-x scroll center top;
+}
+.ctaFtBackgroundImagePage {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.ctaFtAvatarPage {
+    float: right;
+    height: 102px;
+    margin-left: 10px;
+    width: 102px;
+}
+.ctaFtAvatarRightPage {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.ctaFtIconPage {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    float: right;
+    height: 192px;
+    margin-left: 10px;
+    padding: 2px;
+    width: 192px;
+}
+.ctaFtIconPage img {
+    height: 192px;
+    width: 192px;
+}
+.ctaFtIconRightPage {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.ctaFtThreadContentAvatarPage {
+    min-height: 102px;
+}
+.ctaFtThreadContentIconPage {
+    min-height: 198px;
+}
+.ctaFtThreadTitlePage {
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+a.ctaFtThreadTitleLinkPage {
+}
+.ctaFtThreadTextAvatarPage {
+    font-size: 14px;
+    line-height: 1.44em;
+}
+.ctaFtThreadTextIconPage {
+    font-size: 14px;
+    line-height: 1.44em;
+}
+.ctaFtThreadTextAvatarPage a, .ctaFtThreadTextIconPage a {
+}
+.ctaFtFooterPage {
+    margin-bottom: -3px;
+    overflow: hidden;
+    padding-top: 1px;
+}
+.ctaFtFooterPage {
+}
+.ctaFtFooterPage::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ctaFtFeaturedThreadTextPage {
+    color: rgb(150, 150, 150);
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.ctaFtAuthorPage .username {
+    color: rgb(150, 150, 150);
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.ctaFtDatePage {
+    color: rgb(150, 150, 150);
+    float: right;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ctaFtForumPage a {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.ctaFtExpiryPage {
+    color: rgb(150, 150, 150);
+    float: right;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ctaFtLikesPage {
+    color: rgb(150, 150, 150);
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.ctaFtViewsPage {
+    color: rgb(150, 150, 150);
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.ctaFtRepliesPage {
+    color: rgb(150, 150, 150);
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+}
+a.ctaFtReadMoreLinkPage {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.ctaFtSharePage {
+    margin-bottom: -8px;
+    margin-top: 10px;
+}
+.ctaFtSharePage {
+}
+.ctaFtSharePage::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ctaFtShareControlsPage {
+    float: right;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.ctaFtTwitterPage {
+}
+.ctaFtGooglePage {
+}
+.ctaFtFacebookPage {
+}
+.ctaFtAddThisPage {
+}
+.ctaFtCustomSharePage {
+}
+.ctaFtImageEditor {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ctaFtImageEditor #CtaFtImagePanes {
+    margin-top: 10px;
+}
+.ctaFtIconEditor {
+}
+.ctaFtBackgroundEditor {
+}
+.ctaFtSliderEditor {
+}
+.ctaFtImageEditor .ctaFtModifyControls {
+    margin-right: 112px;
+    min-height: 102px;
+}
+.ctaFtImageEditor .ctaFtModifyControlsLarge {
+    margin-right: 208px;
+    min-height: 198px;
+}
+.ctaFtImageEditor .ctaFtModifyControlsNoImage {
+    min-height: 102px;
+}
+.ctaFtImageEditor .faint {
+    font-size: 11px;
+}
+.ctaFtImageEditor .submitUnit {
+    text-align: left;
+}
+.ctaFtImageEditor .ctaFtCurrentImage {
+    background-color: transparent;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    display: block;
+    float: right;
+    padding: 2px;
+    text-align: center;
+    width: 192px;
+}
+.ctaFtImageEditor .ctaFtCurrentImageAvatar {
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+    width: 102px;
+}
+.ctaFtImageEditor .ctaFtCurrentImage img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-height: 96px;
+    max-width: 96px;
+}
+.ctaFtImageEditor .ctaFtCurrentImageLarge {
+    background-color: transparent;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    display: block;
+    float: right;
+    padding: 2px;
+    text-align: center;
+    width: 192px;
+}
+.ctaFtImageEditor .ctaFtCurrentImageLarge img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-height: 192px;
+    max-width: 192px;
+}
+.ctaFtImageEditor .ctaFtImageAction {
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+.xenOverlay .ctaFtImageEditor .ctaFtImageAction {
+    background: rgba(0, 0, 0, 0.25) none repeat scroll 0 0;
+}
+.ctaFtImageEditor .ctaFtImageUpload {
+    box-sizing: border-box;
+    margin: 3px 0;
+    max-width: 100%;
+}
+.ctaFtImageEditor .ctaFtImageUploadUrl {
+    box-sizing: border-box;
+    margin: 3px 0;
+    width: 100%;
+}
+.ctaFtImageEditor .ctaFtIcon {
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+}
+.ctaFtImageEditor .ctaFtIconLarge {
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+    width: 192px;
+}
+.ctaFtImageEditor .ctaFtBackground {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+}
+.ctaFtImageEditor .ctaFtSlider {
+    border: 0 none;
+    border-radius: 0;
+    padding: 0;
+}
+.ctaFtImageEditor .ctaFtAttachedImages {
+    height: auto;
+    margin-top: 3px;
+    max-height: 106px;
+    overflow-y: auto;
+}
+.ctaFtImageEditor .ctaFtAttachedImages img {
+    cursor: pointer;
+    display: block;
+    max-height: 100px;
+    max-width: 100px;
+}
+.ctaFtImageEditor .ctaFtAttachedImage {
+    background-color: transparent;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    margin: 10px 0 0 4px;
+    max-height: 100px;
+    padding: 2px;
+    position: relative;
+    width: 100px;
+}
+.ctaFtImageEditor .ctaFtAttachedImageInput {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.sectionMain.ctaFtContainer .Popup .arrowWidget, .sectionMain.ctaFtContainerPage .Popup .arrowWidget {
+    width: 15px;
+}
+.ctaFtThreadTextAvatar img.mceSmilie, .ctaFtThreadTextAvatar img.mceSmilieSprite, .ctaFtThreadTextIcon img.mceSmilie, .ctaFtThreadTextIcon img.mceSmilieSprite {
+    display: none;
+}
+.ctaFtThreadTextAvatarPage img.mceSmilie, .ctaFtThreadTextAvatarPage img.mceSmilieSprite, .ctaFtThreadTextIconPage img.mceSmilie, .ctaFtThreadTextIconPage img.mceSmilieSprite {
+    display: none;
+}
+@media (max-width: 480px) {
+.Responsive .xenForm .ctrlUnit > dd, .Responsive .xenForm .ctrlUnit.fullWidth dd {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ctaThreadListItemControls {
+    display: none;
+}
+}
+.ctaFtThreadTextAvatar.baseHtml ol, .ctaFtThreadTextAvatar.baseHtml ul, .ctaFtThreadTextAvatar.baseHtml dl {
+    margin-right: 0;
+}
+.ctaFtThreadTextAvatar.baseHtml li {
+    margin-left: 2em;
+    position: relative;
+    right: 2em;
+}
+.ctaFtThreadTextIcon.baseHtml ol, .ctaFtThreadTextIcon.baseHtml ul, .ctaFtThreadTextIcon.baseHtml dl {
+    margin-right: 0;
+}
+.ctaFtThreadTextIcon.baseHtml li {
+    margin-left: 2em;
+    position: relative;
+    right: 2em;
+}
+.ctaFtThreadTextAvatarPage.baseHtml ol, .ctaFtThreadTextAvatarPage.baseHtml ul, .ctaFtThreadTextAvatarPage.baseHtml dl {
+    margin-right: 0;
+}
+.ctaFtThreadTextAvatarPage.baseHtml li {
+    margin-left: 2em;
+    position: relative;
+    right: 2em;
+}
+.ctaFtThreadTextIconPage.baseHtml ol, .ctaFtThreadTextIconPage.baseHtml ul, .ctaFtThreadTextIconPage.baseHtml dl {
+    margin-right: 0;
+}
+.ctaFtThreadTextIconPage.baseHtml li {
+    margin-left: 2em;
+    position: relative;
+    right: 2em;
+}
+.ctaFtThreadTextAvatar img, .ctaFtThreadTextAvatar iframe, .ctaFtThreadTextAvatar object, .ctaFtThreadTextAvatar embed {
+    max-width: 100%;
+}
+.ctaFtThreadTextIcon img, .ctaFtThreadTextIcon iframe, .ctaFtThreadTextIcon object, .ctaFtThreadTextIcon embed {
+    max-width: 100%;
+}
+.ctaFtThreadTextAvatarPage img, .ctaFtThreadTextAvatarPage iframe, .ctaFtThreadTextAvatarPage object, .ctaFtThreadTextAvatarPage embed {
+    max-width: 100%;
+}
+.ctaFtThreadTextIconPage img, .ctaFtThreadTextIconPage iframe, .ctaFtThreadTextIconPage object, .ctaFtThreadTextIconPage embed {
+    max-width: 100%;
+}
+.discussionList {
+    position: relative;
+}
+.discussionList .sectionHeaders, .discussionListItem {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: normal;
+}
+.discussionList .sectionHeaders dt, .discussionList .sectionHeaders dd, .discussionListItem .listBlock {
+    display: table-cell;
+    vertical-align: middle;
+}
+.discussionList .posterAvatar {
+    width: 52px;
+}
+.discussionList .main {
+    width: auto;
+}
+.discussionList .sectionHeaders .main .postDate {
+    text-align: left;
+}
+.discussionList .stats {
+    width: 140px;
+}
+.discussionList .sectionHeaders .stats .minor {
+    text-align: left;
+}
+.discussionList .lastPost {
+    overflow: hidden;
+    text-align: left;
+    width: 150px;
+}
+.discussionList .statsLastPost {
+    width: 290px;
+}
+.discussionList .sectionHeaders {
+    background: rgb(242, 242, 242) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-top: 1px solid rgb(242, 242, 242);
+    color: #222;
+    font-size: 11px;
+    margin: 3px auto 0;
+    padding: 0;
+}
+.discussionList .sectionHeaders dt span {
+    display: none !important;
+}
+.discussionList .sectionHeaders a {
+    color: #222;
+    display: block;
+    outline: medium none;
+}
+.discussionList .sectionHeaders a:hover {
+    text-decoration: none;
+}
+.discussionList .sectionHeaders dd a[href]:hover {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.discussionList .sectionHeaders .main a, .discussionList .sectionHeaders .stats a {
+    float: right;
+    white-space: nowrap;
+    width: 50%;
+}
+.discussionList .sectionHeaders a span {
+    display: block;
+    padding: 5px 10px;
+}
+.discussionList .sectionHeaders, .discussionListItem {
+}
+.discussionList .sectionHeaders dt, .discussionList .sectionHeaders dd, .discussionListItem .listBlock {
+}
+.discussionListItem .listBlock {
+}
+.discussionList .posterAvatar {
+}
+.discussionListItem .posterAvatar {
+}
+.discussionList .main {
+}
+.discussionList .stats {
+}
+.discussionList .lastPost {
+}
+.discussionList .statsLastPost {
+}
+.discussionList .sectionHeaders dt, .discussionList .sectionHeaders dd {
+}
+.discussionList .sectionHeaders a, .discussionList .sectionHeaders a span {
+}
+.discussionListItems {
+}
+.discussionListItem {
+    background-color: rgb(255, 247, 255);
+    border-bottom: 1px solid rgb(255, 241, 241);
+}
+.discussionListItem .posterAvatar, .discussionListItem .stats {
+    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+}
+.discussionListItem .main, .discussionListItem .lastPost {
+}
+.discussionListItem .posterAvatar .avatarContainer {
+    display: block;
+    position: relative;
+}
+.discussionListItem .posterAvatar .avatar {
+    display: block;
+    height: auto;
+    padding: 5px;
+    width: auto;
+}
+.discussionListItem .posterAvatar .avatar img {
+    display: block;
+    height: 36px;
+    width: 36px;
+}
+.discussionListItem .posterAvatar .miniMe {
+    bottom: 1px;
+    padding: 0;
+    position: absolute;
+    right: 29px;
+    z-index: 10;
+}
+.discussionListItem .posterAvatar .miniMe img {
+    border: 1px none black;
+    border-radius: 2px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
+    height: 20px;
+    padding: 1px;
+    width: 20px;
+}
+.discussionListItem .titleText {
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+.LoggedIn .discussionListItem .titleText {
+    padding-right: 20px;
+}
+.LoggedIn .discussionListItem .unreadLink, .LoggedIn .discussionListItem .ReadToggle {
+    background: rgba(0, 0, 0, 0) url("https://forum.persiantools.com/styles/default/xenforo/xenforo-ui-sprite.png") no-repeat scroll 10000px 0;
+    display: block;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 5px;
+    text-indent: 9999px;
+    top: 10px;
+    white-space: nowrap;
+    width: 10px;
+}
+.LoggedIn .discussionListItem .unreadLink, .LoggedIn .discussionListItem.unread .ReadToggle {
+    background-position: -5px -42px;
+}
+.LoggedIn .discussionListItem .ReadToggle:hover {
+    background-position: -25px -42px;
+}
+.discussionListItem .title {
+    font-size: 11pt;
+    line-height: 18px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.discussionListItems .unread .title a {
+    font-weight: bold;
+}
+.discussionListItem .iconKey span {
+    background: transparent url("https://forum.persiantools.com/styles/default/xenforo/xenforo-ui-sprite.png") no-repeat scroll 10000px 0;
+    float: left;
+    height: 16px;
+    margin-right: 5px;
+    text-indent: -10000em;
+    width: 16px;
+}
+.discussionListItem .iconKey .sticky {
+    background-position: 0 -16px;
+}
+.discussionListItem .iconKey .starred {
+    background-position: -90px -32px;
+    height: 18px;
+    width: 18px;
+}
+.discussionListItem .iconKey .watched {
+    background-position: -144px -16px;
+    height: 16px;
+    width: 16px;
+}
+.discussionListItem .iconKey .locked {
+    background-position: -16px -16px;
+}
+.discussionListItem .iconKey .moderated {
+    background-position: -32px -16px;
+}
+.discussionListItem .iconKey .redirect {
+    background-position: -48px -16px;
+}
+.discussionListItem .iconKey .new {
+    background-position: -64px -16px;
+}
+.discussionListItem .secondRow {
+    clear: both;
+    font-size: 11px;
+}
+.discussionListItem .secondRow .controls {
+    float: left;
+    padding-right: 20px;
+}
+.discussionListItem.AjaxProgress .controls {
+    background: transparent url("https://forum.persiantools.com/styles/default/xenforo/widgets/ajaxload.info_B4B4DC_facebook.gif") no-repeat scroll right center;
+}
+.discussionListItem .posterDate {
+    float: right;
+}
+.discussionListItem .stats dl {
+    border-left: 1px solid rgb(241, 241, 241);
+    border-right: 1px solid rgb(241, 241, 241);
+    padding: 0 10px;
+}
+.discussionListItem .stats .major {
+    font-size: 11pt;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.discussionListItem .stats .minor {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.discussionListItem .lastPostInfo {
+    padding: 5px;
+}
+.discussionListItem .lastPostInfo .username {
+    font-size: 11pt;
+    line-height: 18px;
+}
+.discussionListItems .unread .lastPostInfo .username {
+    font-weight: bold;
+}
+.discussionListItem .lastPostInfo .dateTime {
+    font-size: 11px;
+}
+.discussionListItem .noteRow {
+    background-color: rgb(255, 255, 255);
+    color: rgb(52, 52, 52);
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+}
+.discussionListItem .noteRow.secondary {
+    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+}
+.discussionList .discussionListItem.deleted {
+}
+.discussionList .discussionListItem.deleted .avatar img {
+    opacity: 0.5;
+}
+.discussionList .discussionListItem.deleted .deletionNote {
+    color: rgb(150, 0, 0);
+    float: right;
+}
+.discussionList .discussionListItem.moderated .listBlock {
+    background-color: rgb(255, 255, 255);
+}
+.discussionListItem.InlineModChecked, .discussionListItem.InlineModChecked .posterAvatar, .discussionListItem.InlineModChecked .main, .discussionListItem.InlineModChecked .stats, .discussionListItem.InlineModChecked .lastPost, .discussionListItem.deleted.InlineModChecked, .discussionListItem.moderated.InlineModChecked {
+    background: rgb(255, 255, 200) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+}
+.discussionList .sectionFooter {
+    overflow: hidden;
+}
+.discussionList .sectionFooter .contentSummary {
+    display: block;
+    float: right;
+}
+.DiscussionListOptions {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+    line-height: 20px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.hasJs .DiscussionListOptions {
+    display: none;
+}
+.DiscussionListOptions dl, .DiscussionListOptions .controlGroup {
+    float: right;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.DiscussionListOptions dt {
+    float: right;
+}
+.DiscussionListOptions dd {
+    margin-right: 120px;
+}
+.DiscussionListOptions .buttonGroup {
+    float: left;
+}
+.DiscussionListOptions .buttonGroup input {
+    min-width: 75px;
+}
+#DiscussionListOptionsHandle {
+    bottom: -17px;
+    left: 50%;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+#DiscussionListOptionsHandle a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: black rgb(219, 219, 219) rgb(219, 219, 219);
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 1px;
+    color: rgb(219, 219, 219);
+    display: inline-block;
+    font-size: 11px;
+    left: -50%;
+    margin: 0 auto;
+    outline: 0 none;
+    padding: 0 20px;
+    position: relative;
+}
+.afterDiscussionListHandle {
+    margin-top: 20px;
+}
+.discussionListItem .itemPageNav {
+    visibility: hidden;
+}
+.discussionListItem:hover .itemPageNav, .Touch .discussionListItem .itemPageNav {
+    visibility: visible;
+}
+.itemPageNav a, .itemPageNav span {
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 9px;
+    padding: 0 3px;
+    text-align: center;
+}
+body .itemPageNav a {
+    background: rgb(255, 255, 255) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll 0 0;
+    border: 1px solid rgb(242, 242, 242);
+    color: #444;
+    margin: -1px 0;
+}
+body .itemPageNav a:hover {
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(228, 228, 228);
+    color: #444;
+    text-decoration: none;
+}
+.discussionListFilters {
+    font-size: 11px;
+    overflow: hidden;
+}
+.discussionListFilters .filtersHeading {
+    color: rgb(141, 141, 141);
+    float: right;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.discussionListFilters .removeFilter, .discussionListFilters .removeAllFilters {
+    background: rgb(241, 241, 241) url("https://forum.persiantools.com/styles/default/xenforo/gradients/form-button-white-25px.png") repeat-x scroll center top;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    color: rgb(52, 52, 52);
+    padding: 2px 10px;
+}
+.discussionListFilters .gadget {
+    color: rgb(141, 141, 141);
+    font-weight: bold;
+    margin-right: 3px;
+}
+.discussionListFilters .removeFilter:hover, .discussionListFilters .removeAllFilters:hover {
+    background-color: rgb(248, 248, 248);
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.15);
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+.discussionListFilters .pairsInline dt {
+    display: none;
+}
+.discussionListFilters .filterPairs {
+    float: right;
+}
+.discussionListFilters .removeAll {
+    float: left;
+}
+.discussionListFilters .removeAllFilters {
+    padding: 2px 6px;
+}
+@media (max-width: 610px) {
+.Responsive .discussionList .sectionHeaders .stats {
+    display: none;
+}
+.Responsive .discussionList .sectionHeaders .main .title {
+    float: none;
+    width: auto;
+}
+.Responsive .discussionList .sectionHeaders .main .postDate {
+    display: none;
+}
+.Responsive .discussionList .statsLastPost {
+    display: none;
+}
+.Responsive .discussionListItem .listBlock.main, .Responsive .discussionListItem .listBlock.stats, .Responsive .discussionListItem .listBlock.lastPost {
+    display: block;
+}
+.Responsive .discussionListItem .listBlock.stats {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    float: right;
+    margin-top: -5px;
+    padding-right: 5px;
+    width: auto;
+}
+.Responsive.LoggedIn .discussionListItem .listBlock.stats {
+    padding-right: 20px;
+}
+.Responsive .discussionListItem .listBlock.stats dl {
+    border: medium none;
+    padding: 0;
+}
+.Responsive .discussionListItem .listBlock.stats dd, .Responsive .discussionListItem .listBlock.stats dt {
+    display: inline;
+    float: none;
+}
+.Responsive .discussionListItem .listBlock.stats .minor {
+    display: none;
+}
+.Responsive .discussionListItem .listBlock.stats .major {
+    font-size: 11px;
+    margin-top: 0;
+}
+.Responsive .discussionListItem .listBlock.lastPost {
+    float: left;
+    margin-top: -5px;
+    width: auto;
+}
+.Responsive .discussionListItem .listBlock.lastPost .lastPostInfo {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.Responsive .discussionListItem .listBlock.lastPost dt {
+    display: none;
+}
+}
+@media (max-width: 800px) {
+.Responsive .discussionList .sectionHeaders .lastPost, .Responsive .discussionList .lastPost {
+    width: 125px;
+}
+}
+@media (max-width: 480px) {
+.Responsive .discussionListItem .secondRow .startDate, .Responsive .discussionListItem .secondRow .EditControl {
+    display: none;
+}
+}
+.natMenuLevel0 {
+    padding-right: 0;
+}
+.natMenuLevel1 {
+    padding-right: 10px;
+}
+.natMenuLevel2 {
+    padding-right: 20px;
+}
+.natMenuLevel3 {
+    padding-right: 30px;
+}
+.natMenuLevel4 {
+    padding-right: 40px;
+}
+.natMenuLevel5 {
+    padding-right: 50px;
+}
+.natMenuLevel6 {
+    padding-right: 60px;
+}
+.natMenuLevel7 {
+    padding-right: 70px;
+}
+.natMenuLevel8 {
+    padding-right: 80px;
+}
+.natMenuLevel9 {
+    padding-right: 90px;
+}
+.natMenuLevel10 {
+    padding-right: 100px;
+}
+div.natJSMenuColumns {
+    background: rgba(248, 248, 248, 0.96) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+}
+div.natJSMenuColumns ul {
+    background-color: transparent !important;
+    border-bottom: 0 none;
+    float: right;
+    max-height: none !important;
+}
+.nodeList {
+}
+.nodeList .node {
+    vertical-align: bottom;
+}
+.nodeList .node.level_1 {
+    margin-bottom: 20px;
+}
+.nodeList .node.level_1:last-child {
+    margin-bottom: 0;
+}
+.nodeList .node.groupNoChildren + .node.groupNoChildren {
+    margin-top: -20px;
+}
+.node .nodeInfo {
+    overflow: hidden;
+    position: relative;
+}
+.node .nodeInfo.primaryContent, .node .nodeInfo.secondaryContent {
+    padding: 0;
+}
+.node .nodeIcon {
+    float: right;
+    height: 36px;
+    margin: 10px 10px 10px 0;
+    width: 36px;
+}
+.node .forumNodeInfo .nodeIcon, .node .categoryForumNodeInfo .nodeIcon {
+    background-image: url("https://forum.persiantools.com/styles/default/xenforo/node-sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.node .forumNodeInfo.unread .nodeIcon, .node .categoryForumNodeInfo.unread .nodeIcon {
+    background-image: url("https://forum.persiantools.com/styles/default/xenforo/node-sprite.png");
+    background-position: -36px 0;
+    background-repeat: no-repeat;
+}
+.node .pageNodeInfo .nodeIcon {
+    background-image: url("https://forum.persiantools.com/styles/default/xenforo/node-sprite.png");
+    background-position: -72px 0;
+    background-repeat: no-repeat;
+}
+.node .linkNodeInfo .nodeIcon {
+    background-image: url("https://forum.persiantools.com/styles/default/xenforo/node-sprite.png");
+    background-position: -108px 0;
+    background-repeat: no-repeat;
+}
+.node .nodeText {
+    margin: 10px 56px 10px 270px;
+}
+.node .nodeText .nodeTitle {
+    font-size: 12pt;
+}
+.node .unread .nodeText .nodeTitle {
+    font-weight: bold;
+}
+.node .nodeDescription {
+    font-size: 11px;
+}
+.hasJs .node .nodeDescriptionTooltip {
+    display: none;
+}
+.Touch .node .nodeDescriptionTooltip {
+    display: block;
+}
+.node .nodeStats {
+    font-size: 11px;
+    margin-top: 2px;
+}
+.node .nodeExtraNote {
+    color: rgb(150, 150, 150);
+    font-size: 11px;
+    text-align: left;
+}
+.node .subForumList {
+    margin: -5px 56px 10px 0;
+    overflow: hidden;
+}
+.node .subForumList li {
+    float: right;
+    margin: 2px 2% 2px 0;
+    width: 31%;
+}
+.node .subForumList li .nodeTitle {
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.node .subForumList .unread .nodeTitle {
+    font-weight: bold;
+}
+.node .subForumList li ol, .node .subForumList li ul {
+    display: none;
+}
+.node .nodeLastPost {
+    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 3px;
+    font-size: 11px;
+    height: 28px;
+    left: 0;
+    line-height: 14px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 3px 10px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 210px;
+    word-wrap: normal;
+}
+.node .nodeLastPost .lastThreadTitle {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.node .nodeLastPost .lastThreadMeta {
+    display: block;
+}
+.node .nodeLastPost .noMessages {
+    line-height: 28px;
+}
+.node .nodeControls {
+    left: 242px;
+    margin: 20px 0;
+    position: absolute;
+    top: 0;
+}
+.node .tinyIcon {
+    background: transparent url("https://forum.persiantools.com/styles/default/xenforo/xenforo-ui-sprite.png") no-repeat scroll -112px -16px;
+    display: block;
+    height: 14px;
+    margin: 1px 4px;
+    opacity: 0.25;
+    overflow: hidden;
+    text-indent: 9999px;
+    white-space: nowrap;
+    width: 14px;
+}
+.node .nodeInfo:hover .tinyIcon[href], .Touch .node .tinyIcon {
+    opacity: 1;
+}
+.nodeDescriptionTip {
+    height: auto;
+    line-height: 1.5;
+    margin-top: -22px;
+    padding: 4px 10px;
+    width: 350px;
+}
+.nodeDescriptionTip .arrow {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent black transparent rgba(0, 0, 0, 0.6);
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 6px 1px 6px 6px;
+    bottom: auto;
+    right: -6px;
+    top: 6px;
+}
+.nodeDescriptionTip.arrowBottom .arrow {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(0, 0, 0, 0.6) transparent black;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 6px 6px 1px;
+    bottom: -6px;
+    right: 10px;
+    top: auto;
+}
+.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding: 0;
+}
+.nodeList .categoryStrip {
+    background: rgb(242, 242, 242) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    border-top: 1px solid rgb(242, 242, 242);
+    color: #222;
+    font-size: 11px;
+    margin: 0;
+    min-height: 6px;
+    padding: 5px 10px;
+}
+.nodeList .categoryStrip .nodeTitle {
+    color: #222;
+    font-size: 10pt;
+}
+.nodeList .categoryStrip .nodeTitle a {
+    color: #222;
+}
+.nodeList .categoryStrip .nodeDescription {
+    color: #222;
+    font-size: 10px;
+}
+.nodeList .categoryStrip .nodeDescription a {
+    color: #222;
+}
+.nodeList .node.groupNoChildren + .node.groupNoChildren .categoryStrip {
+    display: none;
+}
+.nodeStats {
+    overflow: hidden;
+}
+.nodeStats dl, .subForumsPopup {
+    display: block;
+    float: right;
+    margin-left: 3px;
+}
+.subForumsPopup.Popup .PopupControl.PopupOpen {
+    background-image: none;
+}
+.subForumsPopup a.PopupControl {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.subForumsPopup .dt {
+    color: rgb(150, 150, 150);
+}
+.subForumsPopup .PopupOpen .dt {
+    color: rgb(20, 20, 20);
+}
+.subForumsMenu .node .node {
+    padding-right: 10px;
+}
+.subForumsMenu .node .nodeTitle {
+    font-size: 11px;
+}
+.subForumsMenu .node .unread .nodeTitle {
+    font-weight: bold;
+}
+.nodeListNewDiscussionButton {
+    margin-top: 10px;
+    text-align: left;
+}
+@media (max-width: 610px) {
+.Responsive .node .nodeText {
+    margin-left: 0;
+}
+.Responsive.Touch .node .nodeDescriptionTooltip, .Responsive .node .nodeDescription {
+    display: none;
+}
+.Responsive .node .nodeLastPost {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    height: auto;
+    margin: -8px 56px 10px 0;
+    padding: 0;
+    position: static;
+    width: auto;
+}
+.Responsive .node .nodeLastPost .noMessages {
+    display: none;
+}
+.Responsive .node .nodeLastPost .lastThreadTitle, .Responsive .node .nodeLastPost .lastThreadUser {
+    display: none;
+}
+.Responsive .node .nodeLastPost .lastThreadDate::before {
+    content: attr(data-latest);
+}
+.Responsive .node .nodeControls {
+    display: none;
+}
+.Responsive .node .subForumList {
+    display: none;
+}
+.Responsive .nodeDescriptionTip {
+    max-width: 350px;
+    width: auto;
+}
+}
+@media (max-width: 480px) {
+.Responsive .subForumsPopup {
+    display: none;
+}
+}
+.zoneWrapperInternal img {
+    max-width: 100%;
+}
