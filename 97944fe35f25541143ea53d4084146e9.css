@@ -742,7 +742,7 @@ a.ctaFtReadMoreLinkPage {
     border-bottom: 1px solid rgb(255, 241, 241);
 }
 .discussionListItem .posterAvatar, .discussionListItem .stats {
-    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
+    background: rgb(255, 247, 255) url("https://forum.persiantools.com/styles/default/xenforo/gradients/category-23px-light.png") repeat-x scroll center top;
 }
 .discussionListItem .main, .discussionListItem .lastPost {
 }
