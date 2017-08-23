@@ -92,7 +92,7 @@
     margin-top: 0;
 }
 .ctaFtBackground {
-    background: rgb(248, 248, 248) url("https://forum.persiantools.com/styles/default/images/cta-featured-threads-gradient.png") repeat-x scroll center top;
+    background: rgb(255, 250, 255) url("https://forum.persiantools.com/styles/default/images/cta-featured-threads-gradient.png") repeat-x scroll center top;
 }
 .ctaFtBackgroundImage {
     background-position: center center !important;
@@ -1328,7 +1328,7 @@ div.natJSMenuColumns ul {
     top: auto;
 }
 .nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 248, 255);
     border-bottom: 1px solid rgb(241, 241, 241);
     padding: 0;
 }
